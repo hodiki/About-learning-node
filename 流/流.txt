@@ -1,0 +1,8 @@
+flags：标识位，默认为 r；
+encoding：字符编码，默认为 null；
+fd：文件描述符，默认为 null；
+mode：权限位，默认为 0o666；
+autoClose：是否自动关闭文件，默认为 true；
+start：读取文件的起始位置；
+end：读取文件的（包含）结束位置；
+highWaterMark：最大读取文件的字节数，默认 64 * 1024。
