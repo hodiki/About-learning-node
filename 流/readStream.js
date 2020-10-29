@@ -10,7 +10,7 @@ let rs = fs.createReadStream('./1.txt',{
     encoding:'utf-8',
     //文件描述符，默认为null
     fd:null,
-    //文件权限,
+    //文件权限, 666对所有者，所属组，其他人的读写权限(linux)
     mode:0o666,
     //文件读取的开始位置
     start:0,
